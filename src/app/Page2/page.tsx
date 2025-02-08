@@ -159,17 +159,17 @@ export default function Page2() {
                 <Link href="/" className="text-neutral-500 hover:text-primary">
                   Home
                 </Link>
-                <Link href="Page2" className="flex items-center text-neutral-500 hover:text-primary">
+                <Link href="/Page2" className="flex items-center text-neutral-500 hover:text-primary">
                   Shop
                   <ChevronDown className="ml-1 h-4 w-4" />
                 </Link>
-                <Link href="about" className="text-neutral-500 hover:text-primary">
+                <Link href="/about" className="text-neutral-500 hover:text-primary">
                   About
                 </Link>
                 <Link href="#" className="text-neutral-500 hover:text-primary">
                   Blog
                 </Link>
-                <Link href="#" className="text-neutral-500 hover:text-primary">
+                <Link href="/Contact" className="text-neutral-500 hover:text-primary">
                   Contact
                 </Link>
                 <Link href="#" className="text-neutral-500 hover:text-primary">

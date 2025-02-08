@@ -78,4 +78,27 @@ body {
   html {
     @apply scroll-smooth;
   }
+  a {
+    @apply text-inherit no-underline;
+  }
+  button {
+    @apply appearance-none rounded-none bg-transparent;
+  }
+  input,
+  textarea,
+  select {
+    @apply bg-input text-foreground;
+  }
+  ::-webkit-scrollbar {
+    @apply w-2;
+  }
+  ::-webkit-scrollbar-track {
+    @apply bg-background;
+  }
+  ::-webkit-scrollbar-thumb {
+    @apply rounded bg-gray-700;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    @apply bg-gray-600;
+  }
 }
