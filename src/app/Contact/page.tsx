@@ -53,7 +53,7 @@ export default function Contact(){
             </div>
 
             <Image
-                src="/Rsocial.png"
+                src="/blackSo.png"
                 alt="blackso"
                 width={242}
                 height={50}
