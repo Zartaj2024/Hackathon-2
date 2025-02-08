@@ -54,7 +54,7 @@ export default function Contact(){
 
             <Image
                 src="/blackso.png"
-                alt="logo"
+                alt="blackso"
                 width={242}
                 height={50}
                 className="w-[242px] h-[50px] "
