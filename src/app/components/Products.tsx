@@ -1,8 +1,7 @@
 // pages/index.js
 import React from "react";
 import Image from "next/legacy/image";
-
-
+import Link from "next/link";
 
 const products = [
   {
@@ -52,8 +51,8 @@ const products = [
     title: "Graphic Design",
     price: "$8.48",
     colors: ["#23a6f0", "#23856d", "#e77c40", "#252b42"],
-  }
-];           
+  },
+];
 
 const ProductGrid = () => {
   return (
@@ -67,12 +66,9 @@ const ProductGrid = () => {
           Problems trying to resolve the conflict between
         </h3>
       </div>
-     <div className="justify-center text-center space-y-5 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4">
+       <div className="justify-center text-center space-y-5 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4">
         {products.map((product, index) => (
-          <div
-            key={index}
-            className="bg-white  w-[250px] h-[400px]"
-          >
+          <Link key={index} href={`/Page3`} className="bg-white  w-[250px] h-[400px]">
             <Image
               src={product.image}
               alt={product.title}
@@ -82,7 +78,7 @@ const ProductGrid = () => {
               className=" mb-4 mx-auto"
             />
 
-            <div className="justify-center text-center p-4 place-items-center ">
+           <div className="justify-center text-center p-4 place-items-center ">
               <h3 className="font-bold">Graphic Design</h3>
               <h3 className="text-lg text-gray-400 font-bold mb-2">
                 English Department
@@ -91,17 +87,17 @@ const ProductGrid = () => {
                 <h1 className="text-black">$96.48</h1>
                 <p className="text-green-500 font-bold mb-2">{product.price}</p>
               </div>
-            <div className="flex gap-1">
-              {product.colors.map((color, index) => (
-                <div
-                  key={index}
-                  className="w-4 h-4 rounded-full"
-                  style={{ backgroundColor: color }}
-                ></div>
-              ))}
+              <div className="flex gap-1">
+                {product.colors.map((color, index) => (
+                  <div
+                    key={index}
+                    className="w-4 h-4 rounded-full"
+                    style={{ backgroundColor: color }}
+                  ></div>
+                ))}
+              </div>
             </div>
-            </div>
-          </div>
+          </Link>
         ))}
       </div>
     </div>
@@ -109,5 +105,3 @@ const ProductGrid = () => {
 };
 
 export default ProductGrid;
-
-

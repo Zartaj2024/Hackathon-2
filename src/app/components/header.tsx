@@ -6,10 +6,7 @@ import EditorPick from "../components/EditorPick";
 
 const Header = () => {
   return (
-    <div
-      className="bg-white
-w-[1439px] h-[136px]"
-    >
+    <div className="bg-white w-[1439px] h-[136px]">
       <div className="bg-[#252B42] w-[1439px] h-[58px] justify-center items-center">
         <div className="w-[1438px] h-[46px] pt-[9px] pl-[2px] justify-center items-center">
           <div className=" w-[1438px] h-[46px] justify-space-between">
@@ -26,9 +23,9 @@ w-[1439px] h-[136px]"
                     />
                   </div>
                   <h6
-                    className="text-white w-[104px] h-[24px] font-semibold font-montserrat  text-[14px] leading-[24px] tracking-[0.2px] text-[ #FFFFFF] text-left underline-offset-from-font decoration-skip-ink
- "
-                  >
+                    className="text-white w-[104px] h-[24px] font-semibold font-montserrat  text-[14px] leading-[24px] tracking-[0.2px] text-[ #FFFFFF] text-left underline-offset-from-font decoration-skip-ink ">
+
+                  
                     (225) 555-0118
                   </h6>
                 </div>
@@ -77,20 +74,20 @@ w-[1439px] h-[136px]"
                 Bandage
               </Link>
               <nav className="hidden lg:flex items-center space-x-6">
-                <Link href="#" className="text-neutral-500 hover:text-primary">
+                <Link href="/" className="text-neutral-500 hover:text-primary">
                   Home
                 </Link>
-                <div className="flex items-center text-neutral-500 hover:text-primary">
+                <Link href="/Page2" className="flex items-center text-neutral-500 hover:text-primary">
                   Shop
                   <ChevronDown className="ml-1 h-4 w-4" />
-                </div>
-                <Link href="#" className="text-neutral-500 hover:text-primary">
+                </Link>
+                <Link href="/about" className="text-neutral-500 hover:text-primary">
                   About
                 </Link>
                 <Link href="#" className="text-neutral-500 hover:text-primary">
                   Blog
                 </Link>
-                <Link href="#" className="text-neutral-500 hover:text-primary">
+                <Link href="/Contact" className="text-neutral-500 hover:text-primary">
                   Contact
                 </Link>
                 <Link href="#" className="text-neutral-500 hover:text-primary">
@@ -105,14 +102,23 @@ w-[1439px] h-[136px]"
                 <span>Login / Register</span>
               </div>
               <div className="flex items-center space-x-4">
-                <Link href="#" className="flex items-center text-blue-500 hover:text-blue-700">
+                <Link
+                  href="#"
+                  className="flex items-center text-blue-500 hover:text-blue-700"
+                >
                   <Search className="h-5 w-5 mr-1" />
                 </Link>
-                <Link href="#" className="hidden sm:flex items-center text-blue-500 hover:text-blue-700">
+                <Link
+                  href="#"
+                  className="hidden sm:flex items-center text-blue-500 hover:text-blue-700"
+                >
                   <ShoppingCart className="h-5 w-5 mr-1" />
                   <span className="ml-1">1</span>
                 </Link>
-                <Link href="#" className="hidden sm:flex items-center text-blue-500 hover:text-blue-700">
+                <Link
+                  href="#"
+                  className="hidden sm:flex items-center text-blue-500 hover:text-blue-700"
+                >
                   <Heart className="h-5 w-5 mr-1" />
                   <span className="ml-1">1</span>
                 </Link>
@@ -124,25 +130,24 @@ w-[1439px] h-[136px]"
       <section className="relative bg-[url('/bg.jpg')] w-full h-[700px] text-white py-16 ">
         <div className="container mx-auto px-4 flex items-center justify-between">
           <div className="pl-10 pr-10 pt-[100px] space-y-10">
-            <p className="h5 font-montserrat font-semibold text-[16px] leading-[24px] tracking-[0.1px] text-left underline-offset-from-font decoration-skip-ink-none">SUMMER 2020</p>
+            <p className="h5 font-montserrat font-semibold text-[16px] leading-[24px] tracking-[0.1px] text-left underline-offset-from-font decoration-skip-ink-none">
+              SUMMER 2020
+            </p>
             <h1 className="font-montserrat text-[58px] font-bold leading-[80px] tracking-[0.2px] text-left underline-offset-from-font decoration-skip-ink-none w-[548px] h-[80px]">
               NEW COLLECTION
             </h1>
             <h4 className=" font-montserrat font-normal text-[20px] leading-[30px] tracking-[0.2px] text-left underline-offset-from-font decoration-skip-ink-none w-[376px] h-[60px]">
-              We know how large objects will act,
-               but things on a small scale.
+              We know how large objects will act, but things on a small scale.
             </h4>
-            <button className="bg-green-500 hover:bg-green-700 text-white font-semibold text-3xl py-2 px-4 rounded w-[221px] h-[62px]">shop now</button>
+            <Link href="/Page2" className=" bg-green-500 hover:bg-green-700 text-white font-semibold text-3xl py-2 px-4 rounded w-[221px] h-[55px]">
+              shop now
+            </Link>
           </div>
-        
         </div>
       </section>
-      <EditorPick/>
-      
-      
+      <EditorPick />
     </div>
   );
 };
 
 export default Header;
-
