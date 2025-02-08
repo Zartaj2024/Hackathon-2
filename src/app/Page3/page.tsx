@@ -199,13 +199,7 @@ export default function Page3() {
               >
                 Home
               </Link>
-              <Image
-                src="/arrow-2.png"
-                alt="logo"
-                width={8}
-                height={16}
-                className="w-[8px] h-[16px] text-[#BDBDBD]"
-              />
+            
               <h6 className="w-[37px] h-[24px] text-[#BDBDBD] font-montserrat font-bold text-[14px] leading-[24px] tracking-[0.2px] text-center underline-offset-from-font decoration-skip-ink">
                 Shop
               </h6>
@@ -219,24 +213,7 @@ export default function Page3() {
           <div className="w-[1050px] h-[550px] gap-[20px] flex flex-row">
             <div className="w-[510px] h-[550px] ">
               <div className=" w-[506px] h-[546px]  rounded-l-[5px] ">
-                <div className="absolute mt-[258.53px] ml-[40px] w-[24px] h-[44.47px] ">
-                  <Image
-                    src="/arrow-2.png"
-                    alt="logo"
-                    width={24}
-                    height={44}
-                    className="w-[23px] h-[44px] top-[44px]   rotate-[180]"
-                  />
-                </div>
-                <div className="absolute mt-[258.53px] ml-[470px] w-[24px] h-[44.47px] ">
-                  <Image
-                    src="/arrow-2.png"
-                    alt="logo"
-                    width={24}
-                    height={44}
-                    className="w-[23px] h-[44px] top-[44px]  text-white"
-                  />
-                </div>
+            
 
                 <div className="  w-[506px] h-[450px]  ">
                   <Image
