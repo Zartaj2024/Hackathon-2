@@ -200,7 +200,7 @@ export default function Page3() {
                 Home
               </Link>
               <Image
-                src="/arrow-2.png"
+                src="/Arrow-2.png"
                 alt="logo"
                 width={8}
                 height={16}
