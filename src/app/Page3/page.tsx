@@ -225,7 +225,7 @@ export default function Page3() {
                     alt="logo"
                     width={24}
                     height={44}
-                    className="w-[23.87px] h-[44.07px] top-[44.27px]   rotate-180"
+                    className="w-[23px] h-[44px] top-[44px]   rotate-[180]"
                   />
                 </div>
                 <div className="absolute mt-[258.53px] ml-[470px] w-[24px] h-[44.47px] ">
@@ -234,7 +234,7 @@ export default function Page3() {
                     alt="logo"
                     width={24}
                     height={44}
-                    className="w-[23.87px] h-[44.07px] top-[44.27px]  text-white"
+                    className="w-[23px] h-[44px] top-[44px]  text-white"
                   />
                 </div>
 
