@@ -92,7 +92,7 @@ const products = [
   ];
 export default function Page2() {
   return (
-    <div className="w-[1440px] h-[3038px] top-[-12664px] left-[596px] ">
+    <div className="w-[1440px] h-[3038px] top-[-12664px] ml-[195px] ">
       <div className="bg-[#23856D] w-[1439px] h-[58px]">
         <div className="w-[1438px] h-[46px] pt-[9px] pl-[2px] ">
           <div className=" w-[1438px] h-[46px] ">

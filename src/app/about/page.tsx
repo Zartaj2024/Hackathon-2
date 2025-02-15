@@ -26,7 +26,7 @@ const products = [
 ];
 export default function AboutUs() {
   return (
-    <div className="w-[1440px] h-[4422px] top-[-12664px] left-[6866px] bg-[#FFFFFF]">
+    <div className="w-[1440px] h-[4422px] ml-[195px] bg-[#FFFFFF]">
       <div className="w-[1440px] h-[729px] bg-[url(/background.jpg)]">
         <div className="flex flex-row justify-center items-center w-[1322px] h-[91px] ml-[59px]">
           <div className="justify-center items-center flex flex-row w-[1322px] h-[91px]  ">

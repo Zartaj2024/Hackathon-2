@@ -4,7 +4,7 @@ import Link from "next/link";
 
 export default function Contact(){
     return(
-        <div className="w-[1440px] h-[2523px] bg-[#FFFFFF]">
+        <div className="w-[1440px] h-[2523px] bg-[#FFFFFF] ml-[195px]">
             
           <div className="bg-[url(/Cfamilt.png)]">
         <div className="w-[1322px] h-[91px] ">

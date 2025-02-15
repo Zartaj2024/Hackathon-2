@@ -3,7 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 export default function Team() {
   return (
-    <div className="w-[1440px] h-[3603px]">
+    <div className="w-[1440px] h-[3603px] ml-[195px]">
       <div className="w-[1440px] h-[384px] bg-[#FFFFFF]">
         <div className="w-[1322px] h-[91px]">
           <div className="flex flex-row justify-center items-center w-[1322px] h-[91px] ml-[59px]">
@@ -37,10 +37,10 @@ export default function Team() {
         <div className="w-[870px]  h-[280px] mt-[104px] ml-[285px] pt-50 pb-50">
           <div className="w-[788px] ml-[195px] ml-[195px] h-[180px]">
             <div className="w-[788px] h-[180px] ml-[50px] space-y-10 ">
-              <h5 className="w-[111px] h-[24px] ml-[200px] font-montserrat text-[13px] font-bold leading-[24px] tracking-[0.2px] text-left underline-offset-from-font decoration-skip-ink-none">
+              <h5 className="w-[111px] h-[24px] ml-[195px] font-montserrat text-[13px] font-bold leading-[24px] tracking-[0.2px] text-left underline-offset-from-font decoration-skip-ink-none">
                 WHAT WE DO
               </h5>
-              <h1 className="w-[788px] h-[20px] font-montserrat text-[40px] font-bold leading-[24px] tracking-[0.2px] mr-[200px]">
+              <h1 className="w-[788px] h-[20px] font-montserrat text-[40px] font-bold leading-[24px] tracking-[0.2px] ml-[px]">
                 Innovation tailored for you
               </h1>
               <div className="w-[122px] h-[44px] pt-10 pb-10 gap-[15px] flex flex-row ml-[190px] items-center">
